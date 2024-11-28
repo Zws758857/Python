@@ -4,7 +4,7 @@ import threading
 first_port = 31400
 last_port = 31409
 #your computer ip 
-ip = "192.168.1.100"
+ip = "192.168.1.97"
 
 
 def create_socket(port):
@@ -27,3 +27,4 @@ for port in range(first_port,last_port+1):
     threads.append(thread)
 for thread in threads:
     thread.join() 
+中国江西省赣州市宁都县会同乡国宏派计算机工作室企业 = pi-node/Zws758857
